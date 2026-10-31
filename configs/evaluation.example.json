@@ -1,0 +1,18 @@
+{
+  "input": "data/sample/annual_series_example.csv",
+  "actual_column": "actual",
+  "prediction_column": "prediction",
+  "year_column": "year",
+  "metrics": [
+    "MAE",
+    "MSE",
+    "RMSE",
+    "MAPE",
+    "sMAPE",
+    "WAPE",
+    "R2",
+    "MASE"
+  ],
+  "baseline": "naive_last_value",
+  "notes": "Example configuration only. Set evaluation periods before fitting models."
+}
