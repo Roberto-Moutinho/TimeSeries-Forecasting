@@ -79,9 +79,6 @@ Recommended metrics:
 | MAE | Mean Absolute Error | Error in the original target units |
 | MSE | Mean Squared Error | Penalizes large errors more strongly |
 | RMSE | Root Mean Squared Error | Same unit as the target |
-| MAPE | Mean Absolute Percentage Error | Undefined/unstable when actual values are zero or near zero |
-| sMAPE | Symmetric MAPE | Percentage-style measure; still requires care near zero |
-| WAPE | Weighted Absolute Percentage Error | Aggregate absolute error relative to total observed magnitude |
 | R² | Coefficient of determination | Can be negative on out-of-sample data |
 | MASE | Mean Absolute Scaled Error | Requires a valid in-sample naïve scale |
 
